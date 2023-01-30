@@ -14,7 +14,18 @@ import Instructions from './screen/Instructions';
 import YourDevices from './screen/YourDevices';
 import History from './screen/History';
 import Devices from './screen/Devices'
-
+import Computer from './screen/Computer';
+import Ricecooker from './screen/Ricecooker';
+import Flatiron from './screen/Flatiron';
+import AC from './screen/AC';
+import TV from './screen/TV';
+import Laptop from './screen/Laptop';
+import Bulb from './screen/Bulb';
+import Cfan from './screen/Cfan';
+import Ref from './screen/Ref';
+import Heater from './screen/Heater';
+import EditDevice from './screen/EditDevice';
+import Reports from './screen/Reports';
 
 const Stack = createNativeStackNavigator();
 export default function App() {
@@ -33,6 +44,18 @@ export default function App() {
                 <Stack.Screen name= "Instructions" component={Instructions}/>
                 <Stack.Screen name= "History" component={History} />
                 <Stack.Screen name= "Your Devices" component={YourDevices} />
+                <Stack.Screen name= "Computer" component={Computer} />
+                <Stack.Screen name= "Ricecooker" component={Ricecooker} />
+                <Stack.Screen name= "Flatiron" component={Flatiron} />
+                <Stack.Screen name= "AC" component={AC} />
+                <Stack.Screen name= "TV" component={TV} />
+                <Stack.Screen name= "Laptop" component={Laptop} />
+                <Stack.Screen name= "Bulb" component={Bulb} />
+                <Stack.Screen name= "Cfan" component={Cfan} />
+                <Stack.Screen name= "Ref" component={Ref} />
+                <Stack.Screen name= "Heater" component={Heater} />
+                <Stack.Screen name= "EditDevice" component={EditDevice} />
+                <Stack.Screen name= "Reports" component={Reports} />
 
 
 
