@@ -157,7 +157,7 @@ export default function Registration(){
                 <Text style={styles.text}>REGISTER</Text> 
             </TouchableOpacity>
             <Text style={styles.fg}>Already Have an Account? <Text onPress={() =>{
-                    navigation.navigate('Login')
+                    navigation.navigate("Login")
                 }} style={styles.fg2}>Sign in</Text></Text>
 
         </View>
