@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import GetDone from './authentication/GetDone';
 import Registration from './authentication/registration';
+import Login from './authentication/login';
 
 const Stack = createNativeStackNavigator();
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <Stack.Navigator initialRouteName="GetDone" screenOptions={{headerShown:false}}>
                 <Stack.Screen name="GetDone" component={GetDone} />
                 <Stack.Screen name="Registration" component={Registration} />
+                <Stack.Screen name="Login" component={Login} />
 
 
       </Stack.Navigator>
