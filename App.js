@@ -26,6 +26,9 @@ import Ref from './screen/Ref';
 import Heater from './screen/Heater';
 import EditDevice from './screen/EditDevice';
 import Reports from './screen/Reports';
+import Profile from './authentication/profile';
+import Forgotpassword from './authentication/forgotpassword';
+import Verification from './authentication/verification';
 
 const Stack = createNativeStackNavigator();
 export default function App() {
@@ -56,6 +59,9 @@ export default function App() {
                 <Stack.Screen name= "Heater" component={Heater} />
                 <Stack.Screen name= "EditDevice" component={EditDevice} />
                 <Stack.Screen name= "Reports" component={Reports} />
+                <Stack.Screen name="Profile" component={Profile} />
+                <Stack.Screen name="Forgotpassword" component={Forgotpassword} />
+                <Stack.Screen name="Verification" component={Verification} />
 
 
 
